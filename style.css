@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #414141;
+    font-family: 'lato', 'sans-serif';
+    box-sizing: border-box;
+    color: #fff;
+}
+#navbar{
+    margin: 0 auto;
+    width: 85%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+
+}
+#logo-container{
+    display:flex;
+    align-items: center;
+}
+#nav-items{
+    display: flex;
+    width: 500px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+#nav-items li{
+    cursor: pointer;
+}
